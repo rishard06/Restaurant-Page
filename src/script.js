@@ -29,6 +29,7 @@ document.querySelector('.menu').addEventListener('click', () => {
 
 document.querySelector('.about').addEventListener('click', () => {
     document.querySelector('#content').innerHTML = "";
+    About();
 });
 
 // const tabButtons = document.querySelectorAll('button');
